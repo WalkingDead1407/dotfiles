@@ -1,0 +1,7 @@
+[user]
+	name = WalkingDead1407
+	email = toosharb14@gmail.com
+[core]
+	editor = nvim
+[credential]
+	helper = store

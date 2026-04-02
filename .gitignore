@@ -4,6 +4,9 @@
 .credentials
 .env
 *.private
+.aws/
+.kube/
+.docker/
 
 # System Files
 .DS_Store
@@ -16,3 +19,9 @@ Thumbs.db
 backups/
 *.backup
 *.bak
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
