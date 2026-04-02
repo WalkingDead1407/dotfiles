@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BACKUP_DIR="$HOME/.dotfiles_backup_$(date +%Y%m%d_%H%M%S)"
+mkdir -p "$BACKUP_DIR"
+echo "Creating symlinks for shell configs..."
+[ -f "$DOTFILES_DIR/.bashrc" ] && ln -sf "$DOTFILES_DIR/.bashrc" "$HOME/.bashrc"
+[ -f "$DOTFILES_DIR/.profile" ] && ln -sf "$DOTFILES_DIR/.profile" "$HOME/.profile"
+echo "Creating symlinks for application configs..."
+[ -d "$DOTFILES_DIR/.config/btop" ] && ln -sf "$DOTFILES_DIR/.config/btop" "$HOME/.config/btop"
+[ -d "$DOTFILES_DIR/.config/kitty" ] && ln -sf "$DOTFILES_DIR/.config/kitty" "$HOME/.config/kitty"
+[ -d "$DOTFILES_DIR/.config/nvim" ] && ln -sf "$DOTFILES_DIR/.config/nvim" "$HOME/.config/nvim"
+[ -d "$DOTFILES_DIR/.config/pokemon-fetch" ] && ln -sf "$DOTFILES_DIR/.config/pokemon-fetch" "$HOME/.config/pokemon-fetch"
+[ -d "$DOTFILES_DIR/.config/lazygit" ] && ln -sf "$DOTFILES_DIR/.config/lazygit" "$HOME/.config/lazygit"
+echo "✨ Dotfiles installed!"

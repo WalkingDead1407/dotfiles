@@ -1,0 +1,18 @@
+# Sensitive Files
+.ssh/
+.gnupg/
+.credentials
+.env
+*.private
+
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Backups
+backups/
+*.backup
+*.bak
