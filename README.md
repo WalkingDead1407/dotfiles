@@ -2,43 +2,18 @@
 
 Personal dotfile configurations for btop, kitty, nvim, pokemon-fetch, lazygit, and bash.
 
-## 📸 Screenshots
+## Screenshots
 
-Add screenshots here! Create `screenshots/` folder and add:
-- `screenshots/btop.png`
-- `screenshots/kitty.png`
+- `screenshots/Desktop.png`
+- `screenshots/config.png`
+- `screenshots/Kitty.png`
+- `screenshots/Nvim_homepage.png`
 - `screenshots/nvim.png`
-- `screenshots/pokemon-fetch.png`
 - `screenshots/lazygit.png`
-
-```markdown
-### Btop - System Monitor
-![Btop Screenshot](./screenshots/btop.png)
-
-### Kitty Terminal
-![Kitty Terminal](./screenshots/kitty.png)
-
-### Neovim Setup
-![Neovim Setup](./screenshots/nvim.png)
-
-### Pokemon-fetch System Info
-![Pokemon-fetch](./screenshots/pokemon-fetch.png)
-
-### Lazygit Git Interface
-![Lazygit](./screenshots/lazygit.png)
-```
-
-## 📦 Installation
 
 ### Prerequisites
 
 Install required tools:
-
-**macOS:**
-```bash
-brew install btop kitty neovim lazygit
-pip3 install pokemon-fetch
-```
 
 **Ubuntu/Debian:**
 ```bash
@@ -56,7 +31,7 @@ cd ~/dotfiles
 source ~/.bashrc
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 dotfiles/
@@ -75,7 +50,7 @@ dotfiles/
 └── .gitignore                # Git ignore rules
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Install
 ```bash
@@ -88,25 +63,3 @@ make install      # Install dotfiles
 make help         # Show commands
 ```
 
-## 📝 Customization
-
-Fork this repository and customize for your needs!
-
-```bash
-# Make changes
-vim ~/.config/nvim/init.lua
-
-# Commit
-cd ~/dotfiles
-git add .
-git commit -m "Update nvim config"
-git push origin main
-```
-
-## 📄 License
-
-Free to use and customize!
-
----
-
-**Enjoy your dotfiles!** 🎉
