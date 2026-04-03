@@ -4,13 +4,23 @@ Personal dotfile configurations for btop, kitty, nvim, pokemon-fetch, lazygit, a
 
 ## Screenshots
 
-- `screenshots/Desktop.png`
-- `screenshots/config.png`
-- `screenshots/Kitty.png`
-- `screenshots/Nvim_homepage.png`
-- `screenshots/nvim.png`
-- `screenshots/lazygit.png`
+### Desktop
+![Desktop](./screenshots/Desktop.png)
 
+### Config
+![Config](./screenshots/config.png)
+
+### Kitty Terminal
+![Kitty](./screenshots/Kitty.png)
+
+### Neovim Homepage
+![Nvim Homepage](./screenshots/Nvim_homepage.png)
+
+### Neovim Editor
+![Nvim](./screenshots/nvim.png)
+
+### Lazygit Git Interface
+![Lazygit](./screenshots/lazygit.png)
 ### Prerequisites
 
 Install required tools:
