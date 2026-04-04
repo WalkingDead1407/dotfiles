@@ -35,7 +35,7 @@ pip3 install pokemon-fetch
 ### Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/walkingdead1407/dotfiles.git 
 cd ~/dotfiles
 ./install.sh
 source ~/.bashrc
