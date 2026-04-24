@@ -9,4 +9,7 @@ background_opacity 0.8
 
 
 
-# BEGIN_KITTY
+# BEGIN_KITTY_THEME
+# ENCOM
+include current-theme.conf
+# END_KITTY_THEME

@@ -11,3 +11,4 @@ PS1='[\u@\h \W]\$ '
 alias code="codium"
 alias codium="flatpak run com.vscodium.codium"
 export OLLAMA_MODELS=$HOME/ollama-models
+. "$HOME/.cargo/env"
